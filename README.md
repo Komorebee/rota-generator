@@ -43,7 +43,7 @@ where weekly rotas were created manually and sometimes failed to meet operationa
 python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
-uvicorn main:app --reload
+uvicorn main:app --reload```
 
 Then open:
 http://127.0.0.1:8000
